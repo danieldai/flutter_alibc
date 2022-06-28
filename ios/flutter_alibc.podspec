@@ -18,7 +18,7 @@ A new flutter plugin project.
 
   s.platform = :ios, '8.0'
 
-  s.vendored_frameworks = 'framework/framework/*'
+  s.vendored_frameworks = 'framework/framework/*.framework'
   s.resource = 'framework/bundle/*.bundle'
 
   s.frameworks = "CoreTelephony","CoreMotion","UIKit","Foundation"
