@@ -243,8 +243,3 @@ FlutterAlibc.loginOut();
 ```
 FlutterAlibc.syncForTaoke(true);
 ````
-
-* 是否使用Native Alipay
-```
-FlutterAlibc.useAlipayNative(true);
-```

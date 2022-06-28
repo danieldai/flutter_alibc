@@ -49,8 +49,6 @@ class FlutterAlibcPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
       handle?.openCart(call, result)
     } else if (call.method == "syncForTaoke") {
       handle?.syncForTaoke(call)
-    } else if (call.method == "useAlipayNative") {
-      handle?.useAlipayNative(call)
     } else {
       result.notImplemented()
     }

@@ -196,12 +196,6 @@ class _MyAppState extends State<MyApp> {
                 FlutterAlibc.syncForTaoke(true);
               },
             ),
-            TextButton(
-              child: Text("使用native Alipay"),
-              onPressed: () {
-                FlutterAlibc.useAlipayNative(true);
-              },
-            ),
           ],
         )),
       ),
