@@ -1,8 +1,4 @@
 #import "FlutterAlibcPlugin.h"
-#import <AlibcTradeSDK/AlibcTradeSDK.h>
-#import <AlibabaAuthEntrance/ALBBSDK.h>
-#import <AlibabaAuthEntrance/ALBBCompatibleSession.h>
-#import <WindVane/WindVane.h>
 #if __has_include(<flutter_alibc/flutter_alibc-Swift.h>)
 #import <flutter_alibc/flutter_alibc-Swift.h>
 #else
